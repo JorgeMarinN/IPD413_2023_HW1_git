@@ -1,0 +1,28 @@
+Manual de uso - funciones de gm/Id para IEE?433
+
+Instalaci—n:
+1. Poner todos los archivos en cualquier parte.
+
+Uso:
+1. Abrir Matlab/Octave y ejecutar los comandos 
+	addpath('direcci—n_donde_se_encuentra_la_carpeta_con_los_archivos')
+	addpath('direcci—n_donde_se_encuentra_la_carpeta_con_los_archivos/Data')
+
+2. Una vez cargados las funciones y los datos, se puede utilizar cualquiera de las funciones que aparecen m‡s abajo. La sintaxis de cada funci—n aparece al escribir "help nombre_funci—n" en la consola. Las longitudes de canal debe ser especificadas como valores dibujados en um, en mœltiplos de 0.0075 a partir de 0.15, tomando valores entre 0.15 y 3.
+
+	Vov		Voltaje overdrive
+	Vth		Voltaje umbral
+	Id_W		Id/W
+	Gmb_Id		Gmb/Id
+	Cgs_W    	Cgs por unidad de ancho
+	Cgd_W   	Cgd por unidad de ancho
+	Cdb_W   	Cbd por unidad de ancho
+	Csb_W   	Cbs por unidad de ancho
+	Cgg_W		Cgg por unidad de ancho
+	ft              fT, definida como 1/2pi * gm/Cgg
+	Av		Ganancia intrínseca
+	gmId_Av		gm/Id para un cierto Av
+	ro              Resistencia de salida
+	Rpar		Funci—n paralelo (||)
+
+Los archivos functioncore.m, interp.m e interp3D.m son utilizados por las funciones reciŽn descritas para acceder a los datos almacenados en la carpeta Data e interpolar para obtener valores intermedios no medidos en las simulaciones.
