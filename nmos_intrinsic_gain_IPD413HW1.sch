@@ -52,7 +52,7 @@ save all
 
 dc vds 0.2 1.8 0.01
 plot abs(1/deriv(v(g1)))
-wrdata /foss/designs/IPD413_2023/HW1/data_nmos_intrinsic_gain_Lp15.dat abs(1/deriv(v(g1)))
+wrdata /foss/designs/IPD413_2023_HW1_git/data_nmos_intrinsic_gain_Lp15.dat abs(1/deriv(v(g1)))
 
 .endc"}
 C {sky130_fd_pr/nfet_01v8.sym} 3280 -540 0 0 {name=M1

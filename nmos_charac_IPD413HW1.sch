@@ -51,7 +51,7 @@ let idn = @m.xm1.msky130_fd_pr__nfet_01v8[id]
 plot idn
 *plot idn vs vov
 
-wrdata /foss/designs/IPD413_2023/HW1/data_nmos_idvgs_VDSp9.dat idn
+wrdata /foss/designs/IPD413_2023_HW1_git/data_nmos_idvgs_VDSp9.dat idn
 
 
 .endc
